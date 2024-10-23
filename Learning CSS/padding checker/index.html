@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Padding Checker</title>
+    <style>
+        *{padding=0;margin=0;}
+        #padding{
+            height:50px;
+            width: 50px;
+            background-color: darkgreen;
+            color: darkgray;
+            padding: 50px;
+            margin: 50px;
+            border: 5px solid black;
+            border-radius: 20px;
+            box-sizing:border-box;
+            text-transform: uppercase;
+        }
+
+        #margin{
+            height:50px;
+            width: 50px;
+            background-color: darkgreen;
+            color: darkgray;
+            padding: 50px;
+            margin: 50px;
+            border: 5px dashed purple;
+            border-radius: 20px;
+            box-sizing:content-box;
+            text-transform: uppercase;}
+
+
+            #button{
+            height:50px;
+            width: 200px;
+            background-color:black;
+            color: darkgray;
+            padding: 10px;
+            margin: 50px;
+            border: 2px solid pink;
+            border-radius: 20px;
+            box-sizing:border-box;
+            text-transform: capitalize;
+            text-decoration: dotted;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="padding" class="pad">first test</div>
+    <div id="margin" class="pad">Second test</div>
+    <div id="button">Click me</div>
+    
+</body>
+</html>
